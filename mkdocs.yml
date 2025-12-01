@@ -1,0 +1,67 @@
+site_name: NCAIS Documentation
+site_description: Nairobi County Assembly Integrated System Documentation
+site_url: https://example.com # Replace with your URL if needed
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Modules:
+      - Legal:
+          - Legislative: legal/legislative.md
+          - Committee Services: legal/committee_services.md
+          - Legal Audit: legal/legal_audit.md
+          - Litigation Management: legal/litigation_management.md
+          - Legal Writing & Advisory: legal/legal_writing_advisory.md
+          - Conveyancing Services: legal/conveyancing_services.md
+          - Contract Drafting: legal/contract_drafting.md
+
+      - Administration:
+          - Asset Management: administration/asset_management.md
+          - Transport Management: administration/transport_management.md
+          - Hospitality: administration/hospitality.md
+          - Cleaning Process: administration/cleaning_process.md
+          - Laundry Services: administration/laundry_services.md
+
+      - Human Resource:
+          - Workforce Planning and Employment: human_resource/workforce_planning_employment.md
+          - Employee Lifecycle Management: human_resource/employee_lifecycle_management.md
+          - Performance, Learning and Growth: human_resource/performance_learning_growth.md
+          - Employee Insurance: human_resource/employee_insurance.md
+          - Employee Relations & Welfare: human_resource/employee_relations_welfare.md
+          - Digital HR & Analytics: human_resource/digital_hr_analytics.md
+
+      - Internal Audit:
+          - Internal Audit Configuration and Methodology Libraries: internal_audit/audit_configuration_methodology.md
+          - Evidence Management & Chain of Custody: internal_audit/evidence_management.md
+          - Audit Findings, Reporting & Compliance Oversight: internal_audit/audit_findings_reporting.md
+          - Audit Committee Governance & Quality Assurance: internal_audit/audit_committee_governance.md
+          - Management Action & Follow-Up on Audit Recommendations: internal_audit/management_action_followup.md
+
+      - Finance:
+          - Budgeting & Appropriation: finance/budgeting_appropriation.md
+          - Integration & Reconciliation: finance/integration_reconciliation.md
+          - Exchequer & Cash-Flow Management: finance/exchequer_cashflow.md
+          - Gratuity: finance/gratuity.md
+          - Financial Reporting & Analytics: finance/financial_reporting_analytics.md
+          - Scheme Funds – Car Loan & Mortgage: finance/scheme_funds.md
+
+      - Supply Chain Management:
+          - Stores Management: supply_chain_management/stores_management.md
+          - Procurement Planning: supply_chain_management/procurement_planning.md
+          - Supplier Registration: supply_chain_management/supplier_registration.md
+          - Contract Management: supply_chain_management/contract_management.md
+          - File Tracking: supply_chain_management/file_tracking.md
+          - Records Management: supply_chain_management/records_management.md
+
+      - Accounts Module:
+          - Accounts Payable: accounts/accounts_payable.md
+          - Fixed Assets: accounts/fixed_assets.md
+          - Imprest Management: accounts/imprest_management.md

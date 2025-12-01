@@ -1,6 +1,5 @@
 site_name: NCAIS Documentation
 site_description: Nairobi County Assembly Integrated System Documentation
-site_url: https://example.com # Replace with your URL if needed
 
 theme:
   name: material
@@ -9,10 +8,22 @@ theme:
     - navigation.expand
     - navigation.prune
     - navigation.indexes
-    - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Introduction: index.md
   - Modules:
       - Legal:
           - Legislative: legal/legislative.md
@@ -61,7 +72,7 @@ nav:
           - File Tracking: supply_chain_management/file_tracking.md
           - Records Management: supply_chain_management/records_management.md
 
-      - Accounts Module:
+      - Accounts:
           - Accounts Payable: accounts/accounts_payable.md
           - Fixed Assets: accounts/fixed_assets.md
           - Imprest Management: accounts/imprest_management.md

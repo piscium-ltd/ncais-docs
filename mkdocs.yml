@@ -3,6 +3,7 @@ site_description: Nairobi County Assembly Integrated System Documentation
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.sections
     - navigation.expand

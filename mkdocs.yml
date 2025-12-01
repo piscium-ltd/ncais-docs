@@ -1,4 +1,5 @@
 site_name: NCAIS Documentation
+site_url: https://nccadocs.piscium.co.ke/
 site_description: Nairobi County Assembly Integrated System Documentation
 
 theme:
